@@ -1,10 +1,13 @@
 source "https://rubygems.org"
 
-gem "activerecord", "~> 5.2"
-gem "sinatra-activerecord"
+gem "activerecord", "~> 7.1"
 gem "rake"
+gem "sinatra-activerecord"
 
+gem "activerecord-reset-pk-sequence"
+gem "ostruct"
+gem "pry"
 gem "require_all"
 gem "sqlite3"
-gem "pry"
-gem 'activerecord-reset-pk-sequence'
+gem 'rubocop'
+gem "rubocop-rake", "~> 0.7.1"

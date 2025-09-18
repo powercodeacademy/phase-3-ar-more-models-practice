@@ -11,7 +11,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MXkmCTywFFM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 **Note**: `cd` into the `lecture_kit` directory before running any commands
-like `bundle`, `rake`, etc.
+like `bundle`, bin/rake`, etc.
 
 ## ERD
 
@@ -88,9 +88,9 @@ At the end of the practice, our ERD will look as following:
 - in all the model files, replace `plant_parent` and `plant_parents` with
   `person` and `people`
 - in seeds, change the model name everywhere
-- run `rake db:seed` and check how many people you have and whether you can
+- run `bin/rake db:seed` and check how many people you have and whether you can
   check number of people associated with a plant (e.g.
-  `Plant.first.people.count`) or a person (e.g. `Person.first.plants`) — this
+  `Plant.first.people.count`) or a person (e.g.`Person.first.plants`) — this
   should error out! Debug it or watch the video.
 
 #### Introduce a `Watering` model
